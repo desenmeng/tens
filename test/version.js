@@ -1,3 +1,3 @@
 'use strict'
-const tensorflow = require('../build/Release/tensorflow')
+const tensorflow = require('bindings')('tensorflow');
 console.log(tensorflow.version())

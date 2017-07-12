@@ -1,19 +1,14 @@
 # tens
-Tens is a high-level neural networks API, written in Javascript and capable of running on top of TensorFlow.
+Tens, written in Javascript and capable of running on top of TensorFlow.
 
 # run
 
-If you use osx,please cp lib/libtensorflow.so to /usr/local/lib
 
 ```shell
-node-gyp rebuild
+npm run build
 ```
+## test
 
 ```shell
-cd test
+node --napi-modules test/version.js
 ```
-
-```shell
-node --napi-modules version.js
-```
-

@@ -1,0 +1,32 @@
+{
+  "name": "tens",
+  "version": "0.0.1",
+  "description": "tens",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm test",
+    "install": "node-gyp rebuild",
+    "build": "cp lib/libtensorflow.so /usr/local/lib && node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tensjs/tens.git"
+  },
+  "keywords": [
+    "tensorflow"
+  ],
+  "author": "mdemo",
+  "license": "MIT",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/tensjs/tens/issues"
+  },
+  "homepage": "https://github.com/tensjs/tens#readme",
+  "dependencies": {
+    "bindings": "^1.2.1"
+  }
+}

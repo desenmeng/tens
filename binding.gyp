@@ -13,8 +13,8 @@
       "VCCLCompilerTool": { "ExceptionHandling": 1 }
     },
     'include_dirs': [
-      'lib'
+      'tensorflow'
     ],
-    'libraries': ['../lib/tensorflow/libtensorflow.so'],
+    'libraries': ['../lib/libtensorflow.so'],
   }]
 }
