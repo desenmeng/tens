@@ -1,6 +1,6 @@
 {
   "name": "tens",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "tens",
   "main": "index.js",
   "directories": {
@@ -19,7 +19,7 @@
   "keywords": [
     "tensorflow"
   ],
-  "author": "mdemo",
+  "author": "demohi",
   "license": "MIT",
   "gypfile": true,
   "bugs": {
