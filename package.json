@@ -10,7 +10,8 @@
   "scripts": {
     "test": "npm test",
     "install": "node-gyp rebuild",
-    "build": "cp lib/libtensorflow.so /usr/local/lib && node-gyp rebuild"
+    "build": "cp lib/libtensorflow.so /usr/local/lib && node-gyp rebuild",
+    "dev": "node-gyp rebuild && node --napi-modules test/version.js"
   },
   "repository": {
     "type": "git",
