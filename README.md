@@ -10,8 +10,8 @@ git submodule update --init --recursive
 ```shell
 npm run build
 ```
-## test
+## dev
 
 ```shell
-node --napi-modules test/version.js
+npm run dev
 ```
